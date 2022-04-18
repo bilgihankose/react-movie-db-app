@@ -48,7 +48,7 @@ const SingleMovie = () => {
         <h2>{title}</h2>
         <p>{plot}</p>
         <h4>{year}</h4>
-        <Link to="/" className="btn">
+        <Link to="/react-movie-db-app/" className="btn">
           Back to Movies
         </Link>
       </div>
