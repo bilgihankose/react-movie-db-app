@@ -6,7 +6,7 @@ function App() {
   return (
     <Routes>
       <Route path="react-movie-db-app/" element={<Home />} />
-      <Route path="/movies/:id" element={<SingleMovie />} />
+      <Route path="react-movie-db-app/movies/:id" element={<SingleMovie />} />
     </Routes>
   );
 }
