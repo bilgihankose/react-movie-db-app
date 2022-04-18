@@ -20,7 +20,9 @@ const AppProvider = ({ children }) => {
 
       if (data.Response === "True") {
         setMovies(data.Search);
-      } else {
+      }
+
+      if (data.Error !== "Incorrect IMDb ID.") {
         setError({ show: true, msg: data.Error });
       }
       setIsLoading(false);
